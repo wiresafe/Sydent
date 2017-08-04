@@ -4,7 +4,7 @@ To: %(to)s
 Message-ID: %(messageid)s
 Subject: %(subject_header_value)s
 MIME-Version: 1.0
-Content-Type: multipart/alternative; 
+Content-Type: multipart/alternative;
 	boundary="7REaIwWQCioQ6NaBlAQlg8ztbUQj6PKJ"
 
 --7REaIwWQCioQ6NaBlAQlg8ztbUQj6PKJ
@@ -13,30 +13,27 @@ Content-Disposition: inline
 
 Hi,
 
-%(sender_display_name)s has invited you into a room %(bracketed_room_name)s on
-Matrix. To join the conversation, either pick a Matrix client from
-https://matrix.org/docs/projects/try-matrix-now.html or use the single-click
-link below to join via Riot (requires Chrome, Firefox, Safari, iOS or Android)
+To protect your financial information %(sender_display_name_forhtml)from %(bracketed_room_name_forhtml)has invited you to send/receive wiring instructions for your upcoming transaction through WireSafe.
+WireSafe is an invitation only encrypted messaging platform for securely sending and receiving wiring instructions.
+Click here to receive/send your wiring instructions
 
-https://riot.im/app/#/room/%(room_id)s?email=%(to_forurl)s&signurl=https%%3A%%2F%%2Fmatrix.org%%2F_matrix%%2Fidentity%%2Fapi%%2Fv1%%2Fsign-ed25519%%3Ftoken%%3D%(token)s%%26private_key%%3D%(ephemeral_private_key)s&room_name=%(room_name_forurl)s&room_avatar_url=%(room_avatar_url_forurl)s&inviter_name=%(sender_display_name_forurl)s&guest_access_token=%(guest_access_token_forurl)s&guest_user_id=%(guest_user_id_forurl)s
+https://riot.im/app/#/room/%(room_id)s?email=%(to_forurl)s&signurl=https%%3A%%2F%%2Fvector.im%%2F_matrix%%2Fidentity%%2Fapi%%2Fv1%%2Fsign-ed25519%%3Ftoken%%3D%(token)s%%26private_key%%3D%(ephemeral_private_key)s&room_name=%(room_name_forurl)s&room_avatar_url=%(room_avatar_url_forurl)s&inviter_name=%(sender_display_name_forurl)s&guest_access_token=%(guest_access_token_forurl)s&guest_user_id=%(guest_user_id_forurl)s
+
+Please note that WireSafe requires Chrome, Firefox or Safari on the web or Apple iOS or Android on mobile
+About WireSafe:
+
+WireSafe guarantees the authenticity of wiring instructions exchanged through 4 layers of security
+
+PRIVATE - Information is sent across private network, eliminating the opportunity for interception
+
+ENCRYPTED - Information is encrypted, eliminating the opportunity for tampering.
+
+AUTHENTICATED - Wiresafe dual authenticates the Sender and Receiver, eliminating impersonation
+
+VALIDATED  -Bank routing numbers are validated to ensure transmission to the proper institution.
 
 
-About Matrix:
-
-Matrix.org is an open standard for interoperable, decentralised, real-time communication
-over IP, supporting group chat, file transfer, voice and video calling, integrations to
-other apps, bridges to other communication systems and much more. It can be used to power
-Instant Messaging, VoIP/WebRTC signalling, Internet of Things communication - or anywhere
-you need a standard HTTP API for publishing and subscribing to data whilst tracking the
-conversation history.
-
-Matrix defines the standard, and provides open source reference implementations of
-Matrix-compatible Servers, Clients, Client SDKs and Application Services to help you
-create new communication solutions or extend the capabilities and reach of existing ones.
-
-Thanks,
-
-Matrix
+For more details visit www.WireSafe.com
 
 --7REaIwWQCioQ6NaBlAQlg8ztbUQj6PKJ
 Content-Type: multipart/related;
@@ -95,44 +92,32 @@ pre, code {
                             <td>
                             </td>
                             <td class="logo">
-                                    <img src="http://matrix.org/img/matrix-120x51.png" width="120" height="51" alt="[matrix]"/>
+                                    <img src="res/image/logo.png" width="120" height="51" alt="WireSafe"/>
                             </td>
                         </tr>
                     </table>
 
 <p>Hi,</p>
 
-<p>%(sender_display_name_forhtml)s has invited you into a room %(bracketed_room_name_forhtml)s on
-Matrix. To join the conversation, either <a href="https://matrix.org/docs/projects/try-matrix-now.html">pick a Matrix client</a> or use the single-click
-link below to join via Riot (requires
-<a href="https://www.google.com/chrome">Chrome</a>,
-<a href="https://www.getfirefox.com">Firefox</a> or
-<a href="https://www.apple.com/safari">Safari</a> on the web,
-or iOS or Android on mobile.)</p>
-</p>
-
+<p>To protect your financial information %(sender_display_name_forhtml)from %(bracketed_room_name_forhtml)has invited you to send/receive wiring instructions for your upcoming transaction through WireSafe.</p>
+<p>WireSafe is an invitation only encrypted messaging platform for securely sending and receiving wiring instructions.</p>
 <p>
     <a
-    href="https://riot.im/app/#/room/%(room_id)s?email=%(to_forurl)s&signurl=https%%3A%%2F%%2Fmatrix.org%%2F_matrix%%2Fidentity%%2Fapi%%2Fv1%%2Fsign-ed25519%%3Ftoken%%3D%(token)s%%26private_key%%3D%(ephemeral_private_key)s&room_name=%(room_name_forurl)s&room_avatar_url=%(room_avatar_url_forurl)s&inviter_name=%(sender_display_name_forurl)s&guest_access_token=%(guest_access_token_forurl)s&guest_user_id=%(guest_user_id_forurl)s">Join the conversation.</a>
+    href="https://riot.im/app/#/room/%(room_id)s?email=%(to_forurl)s&signurl=https%%3A%%2F%%2Fvector.im%%2F_matrix%%2Fidentity%%2Fapi%%2Fv1%%2Fsign-ed25519%%3Ftoken%%3D%(token)s%%26private_key%%3D%(ephemeral_private_key)s&room_name=%(room_name_forurl)s&room_avatar_url=%(room_avatar_url_forurl)s&inviter_name=%(sender_display_name_forurl)s&guest_access_token=%(guest_access_token_forurl)s&guest_user_id=%(guest_user_id_forurl)s">Click here</a>
+		to receive/send your wiring instructions
 </p>
+<p>Please note that WireSafe requires <a href="https://www.google.com/chrome">Chrome</a>, <a href="https://www.getfirefox.com">Firefox</a> or <a href="https://www.apple.com/safari">Safari</a> on the web or Apple iOS or Android on mobile</p>
+<p>About WireSafe:</p>
 
-<br>
-<p>About Matrix:</p>
+<p>WireSafe guarantees the authenticity of wiring instructions exchanged through 4 layers of security</p>
 
-<p>Matrix.org is an open standard for interoperable, decentralised, real-time communication
-over IP, supporting group chat, file transfer, voice and video calling, integrations to
-other apps, bridges to other communication systems and much more. It can be used to power
-Instant Messaging, VoIP/WebRTC signalling, Internet of Things communication - or anywhere
-you need a standard HTTP API for publishing and subscribing to data whilst tracking the
-conversation history.</p>
+<p>PRIVATE - Information is sent across private network, eliminating the opportunity for interception</p>
 
-<p>Matrix defines the standard, and provides open source reference implementations of
-Matrix-compatible Servers, Clients, Client SDKs and Application Services to help you
-create new communication solutions or extend the capabilities and reach of existing ones.</p>
+<p>ENCRYPTED - Information is encrypted, eliminating the opportunity for tampering.</p>
 
-<p>Thanks,</p>
+<p>VALIDATED  -Bank routing numbers are validated to ensure transmission to the proper institution.</p>
 
-<p>Matrix</p>
+<p>For more details visit www.WireSafe.com</p>
                 </td>
                 <td> </td>
             </tr>

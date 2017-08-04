@@ -4,7 +4,7 @@ To: %(to)s
 Message-ID: %(messageid)s
 Subject: Your Riot Validation Token
 MIME-Version: 1.0
-Content-Type: multipart/alternative; 
+Content-Type: multipart/alternative;
 	boundary="7REaIwWQCioQ6NaBlAQlg8ztbUQj6PKJ"
 
 --7REaIwWQCioQ6NaBlAQlg8ztbUQj6PKJ
@@ -122,48 +122,32 @@ pre, code {
                         </tr>
                     </table>
 
-                    <p>Hello there!</p>
+                    <p>Hi,</p>
 
-                    <p>You have asked us to register this email address with riot.im - the open source,
-                    distributed and secure shared workspace for the web that's built on Matrix.</p>
-
-                    <p>If it was really you who made this request, you can click on the following link to
-                    complete the verification of your email address:</p>
-
-                    <p><a href="%(link)s">Complete email verification</a></p>
-
-                    <p>Please note that Riot requires
+										<p>To protect your financial information %(sender_display_name_forhtml)from %(bracketed_room_name_forhtml)has invited you to send/receive wiring instructions for your upcoming transaction through WireSafe.</p>
+										<p>WireSafe is an invitation only encrypted messaging platform for securely sending and receiving wiring instructions.</p>
+										<p>
+										    <a
+										    href="%(link)s">Click here</a>
+												to receive/send your wiring instructions
+										</p>
+                    <p>Please note that WireSafe requires
                     <a href="https://www.google.com/chrome">Chrome</a>,
                     <a href="https://www.getfirefox.com">Firefox</a> or
                     <a href="https://www.apple.com/safari">Safari</a> on the web,
                     or iOS or Android on mobile.</p>
 
-                    <p>If you didn't make this request, you can safely disregard this email.</p>
+										<p>About WireSafe:</p>
 
-                    <p>Thanks!</p>
+										<p>WireSafe guarantees the authenticity of wiring instructions exchanged through 4 layers of security</p>
 
-                    <p>Riot</p>
+										<p>PRIVATE - Information is sent across private network, eliminating the opportunity for interception</p>
 
-                    <br>
-                    <p>About Riot:</p>
+										<p>ENCRYPTED - Information is encrypted, eliminating the opportunity for tampering.</p>
 
-                    <p><em>Break through</em> - Riot allows teams to communicate across a wide range of collaboration
-                    apps. If some team members use Riot while others use IRC, Slack or Gitter, Riot will
-                    allow these team members to seamlessly work together. Riot offers the richest
-                    network of communication bridges.</p>
+										<p>VALIDATED  -Bank routing numbers are validated to ensure transmission to the proper institution.</p>
 
-                    <p><em>Own Your Own Data</em> - No one should control your communication and data but you. Riot
-                    lets you run your own server, and provides users and teams with the most advanced
-                    crypto ratchet technology available today for a decentralized secure Internet.</p>
-
-                    <p><em>Open Source</em> - Riot is entirely open source: all the code is published on GitHub
-                    (Apache License) for anyone to see and extend. This means teams can customize or
-                    contribute to the code and everyone can benefit from the speed of community innovation.</p>
-
-                    <p><em>Made on Matrix</em> - Riot is built on top of Matrix. Matrix is an open network for secure,
-                    decentralized communication delivering a community of users, bridged networks,
-                    integrated bots and applications plus full end-to-end encryption. To learn more about
-                    Matrix visit https://matrix.org.</p>
+										<p>For more details visit www.WireSafe.com</p>
 
                 </td>
                 <td> </td>
